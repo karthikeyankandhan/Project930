@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "to verify login wiht the valid credential",
+        "description": "",
+        "id": "to-validate-the-login-funtionality;to-verify-login-wiht-the-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61466102007,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Fb  Login page",
+            "match": {
+              "location": "stepDefinition.user_is_in_Fb_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2497162111,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "when has to enter the valid username and password",
+            "match": {
+              "location": "stepDefinition.when_has_to_enter_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3303837323,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "stepDefinition.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349553865,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user has to nvigatet to the Home page",
+            "match": {
+              "location": "stepDefinition.user_has_to_nvigatet_to_the_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login funtionality",
+    "description": "",
+    "id": "to-validate-the-login-funtionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/file/file.feature",
+    "tags": []
+  }
+]
